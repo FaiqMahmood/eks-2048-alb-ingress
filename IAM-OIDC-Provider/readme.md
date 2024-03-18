@@ -22,6 +22,11 @@ Before running this script, ensure the following prerequisites are met:
    ```bash
    ./configure_oidc.sh
    ```
+   **OR**
+3. Simply execute this command
+   ```bash
+   eksctl utils associate-iam-oidc-provider --cluster your-cluster-name --approve
+   ```
 
 ## What Does the Script Do?
 
