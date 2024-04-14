@@ -2,6 +2,8 @@
 
 In this project, we deploy the popular 2048 game application on an Amazon EKS (Elastic Kubernetes Service) cluster using Fargate for serverless compute. The goal is to make the application publicly accessible via an Application Load Balancer (ALB) by setting up deployment, service, and ingress resources. Additionally, we configure an IAM OIDC (OpenID Connect) provider to enable authentication and authorization for Kubernetes resource.
 
+![alt text](2048-game/eks-arch.png)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following prerequisites installed and configured:
@@ -13,10 +15,6 @@ Before you begin, ensure you have the following prerequisites installed and conf
 - **eksctl**: `eksctl` simplifies working with Amazon EKS clusters by automating various tasks. You can install or update it by following the instructions [here](https://github.com/weaveworks/eksctl#installation).
 
 - **helm**: Helm is a package manager for Kubernetes that simplifies deploying applications and managing Helm charts. Install Helm by following the instructions [here](https://helm.sh/docs/intro/install/).
-
-## Architecture
-
-![alt text](2048-game/eks-arch.png)
 
 ## Follow Along
 
