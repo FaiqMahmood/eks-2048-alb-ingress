@@ -14,6 +14,10 @@ Before you begin, ensure you have the following prerequisites installed and conf
 
 - **helm**: Helm is a package manager for Kubernetes that simplifies deploying applications and managing Helm charts. Install Helm by following the instructions [here](https://helm.sh/docs/intro/install/).
 
+## Architecture
+
+![alt text](2048-game/eks-arch.png)
+
 ## Follow Along
 
 **Tip**: Use your AWS root account for deploying the app to avoid permission issues.
